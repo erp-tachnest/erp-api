@@ -15,4 +15,4 @@ COPY --from=build /app/publish .
 
 EXPOSE 10000
 
-ENTRYPOINT ["dotnet", "YourApi.dll"]
+ENTRYPOINT ["dotnet", "AuthApi.dll"]
