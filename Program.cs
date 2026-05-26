@@ -53,6 +53,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.MapGet("/", () => "ERP API Running Successfully 🚀");
+
 app.UseAuthentication();
 app.UseAuthorization();
 
